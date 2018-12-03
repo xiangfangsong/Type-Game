@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class game1 extends JFrame{
 	JPanel contentPane;
-	JPanel jpanel1 = new JPanel();
+	public static JPanel jpanel1 = new JPanel();
 	static int score = 0; //Íæ¼ÒµÃ·Ö
 	public static Vector number;
 	

@@ -41,7 +41,7 @@ public class myThread implements Runnable {
 			y=y+10;
 			show.setBounds(x, y, 33, 33); //可见JLabel每次移动的距离为10；
 			try{
-				Thread.sleep(speed); //每隔400ms的时间；
+				Thread.sleep(speed); //每隔speed ms的时间；
 			}catch(InterruptedException e){
 				e.printStackTrace();
 			}
